@@ -61,10 +61,8 @@
 <li><a href="deployer-howto.html"><strong>디플로이어(Deployer)</strong></a> -
     웹 애플리케이션의 배포, 프리컴파일, 검증하기 위한 아파치 톰캣 디플로이어 동작법.</li>
 <li><a href="manager-howto.html"><strong>매니저</strong></a> -
-    아파치 톰캣이 실행되는 동안 웹앱 배포, 삭제, 재배포하기 위한 <strong>매니저</strong>의 동작법.
-    Operating the <strong>Manager</strong> web app to deploy, undeploy, and
-    redeploy applications while Apache Tomcat is running.</li>
-<li><a href="realm-howto.html"><strong>Realms and Access Control</strong></a>
+    아파치 톰캣이 실행되는 동안 웹앱 배포, 삭제, 재배포하기 위한 <strong>매니저</strong>의 동작법.</li>
+<li><a href="realm-howto.html"><strong>렐름(Realm)과 접근 제어</strong></a>
     - Description of how to configure <em>Realms</em> (databases of users,
     passwords, and their associated roles) for use in web applications that
     utilize <em>Container Managed Security</em>.</li>
