@@ -46,7 +46,7 @@
 </section>
 
 
-<section name="Apache Tomcat User Guide">
+<section name="아파치 톰캣 User Guide">
 
 <p>다음 문서는 아파치 톰캣 7을 다운로드하고 설치하고, 많은 아파치 톰캣 기능을 사용하는 데 
 도움이 될 것입니다</p>
@@ -66,8 +66,8 @@
     - Description of how to configure <em>Realms</em> (databases of users,
     passwords, and their associated roles) for use in web applications that
     utilize <em>Container Managed Security</em>.</li>
-<li><a href="security-manager-howto.html"><strong>Security Manager</strong></a>
-    - Configuring and using a Java Security Manager to
+<li><a href="security-manager-howto.html"><strong>보안 관리자</strong></a>
+    - Configuring and using a 자바 보안 관리자 to
     support fine-grained control over the behavior of your web applications.
     </li>
 <li><a href="jndi-resources-howto.html"><strong>JNDI Resources</strong></a>
@@ -78,41 +78,41 @@
     - Configuring a JNDI DataSoure with a DB connection pool.
     Examples for many popular databases.</li>
 <li><a href="class-loader-howto.html"><strong>Classloading</strong></a>
-    - Information about class loading in Apache Tomcat, including where to place
+    - Information about class loading in 아파치 톰캣, including where to place
     your application classes so that they are visible.</li>
 <li><a href="jasper-howto.html"><strong>JSPs</strong></a>
     - Information about Jasper configuration, as well as the JSP compiler
     usage.</li>
 <li><a href="ssl-howto.html"><strong>SSL</strong></a> -
     Installing and
-    configuring SSL support so that your Apache Tomcat will serve requests using
+    configuring SSL support so that your 아파치 톰캣 will serve requests using
     the <code>https</code> protocol.</li>
 <li><a href="ssi-howto.html"><strong>SSI</strong></a> -
-    Using Server Side Includes in Apache Tomcat.</li>
+    Using Server Side Includes in 아파치 톰캣.</li>
 <li><a href="cgi-howto.html"><strong>CGI</strong></a> -
-    Using CGIs with Apache Tomcat.</li>
+    Using CGIs with 아파치 톰캣.</li>
 <li><a href="proxy-howto.html"><strong>Proxy Support</strong></a> -
-    Configuring Apache Tomcat to run behind a proxy server (or a web server
+    Configuring 아파치 톰캣 to run behind a proxy server (or a web server
     functioning as a proxy server).</li>
 <li><a href="mbeans-descriptor-howto.html"><strong>MBean Descriptor</strong></a> -
     Configuring MBean descriptors files for custom components.</li>
 <li><a href="default-servlet.html"><strong>Default Servlet</strong></a> -
     Configuring the default servlet and customizing directory listings.</li>
-<li><a href="cluster-howto.html"><strong>Apache Tomcat Clustering</strong></a> -
-    Enable session replication in a Apache Tomcat environment.</li>
+<li><a href="cluster-howto.html"><strong>아파치 톰캣 Clustering</strong></a> -
+    Enable session replication in a 아파치 톰캣 environment.</li>
 <li><a href="balancer-howto.html"><strong>Balancer</strong></a> -
     Configuring, using, and extending the load balancer application.</li>
 <li><a href="connectors.html"><strong>Connectors</strong></a> -
-    Connectors available in Apache Tomcat, and native web server integration.</li>
+    Connectors available in 아파치 톰캣, and native web server integration.</li>
 <li><a href="monitoring.html"><strong>Monitoring and Management</strong></a> -
-    Enabling JMX Remote support, and using tools to monitor and manage Apache Tomcat.</li>
+    Enabling JMX Remote support, and using tools to monitor and manage 아파치 톰캣.</li>
 <li><a href="logging.html"><strong>Logging</strong></a> -
-    Configuring logging in Apache Tomcat.</li>
+    Configuring logging in 아파치 톰캣.</li>
 <li><a href="apr.html"><strong>Apache Portable Runtime</strong></a> -
     Using APR to provide superior performance, scalability and better
     integration with native server technologies.</li>
 <li><a href="virtual-hosting-howto.html"><strong>Virtual Hosting</strong></a> -
-    Configuring virtual hosting in Apache Tomcat.</li>
+    Configuring virtual hosting in 아파치 톰캣.</li>
 <li><a href="aio.html"><strong>Advanced IO</strong></a> -
     Extensions available over regular, blocking IO.</li>
 <li><a href="extras.html"><strong>Additional Components</strong></a> -
@@ -120,7 +120,7 @@
 <li><a href="maven-jars.html"><strong>Using Tomcat libraries with Maven</strong></a> -
     Obtaining Tomcat jars through Maven.</li>
 <li><a href="security-howto.html"><strong>Security Considerations</strong></a> -
-    Options to consider when securing an Apache Tomcat installation.</li>
+    Options to consider when securing an 아파치 톰캣 installation.</li>
 <li><a href="windows-service-howto.html"><strong>Windows Service</strong></a> -
     Running Tomcat as a service on Microsoft Windows.</li>
 <li><a href="windows-auth-howto.html"><strong>Windows Authentication</strong></a> -
@@ -128,7 +128,7 @@
 <li><a href="jdbc-pool.html"><strong>High Concurrency JDBC Pool</strong></a> -
     Configuring Tomcat to use an alternative JDBC pool.</li>
 <li><a href="web-socket-howto.html"><strong>WebSocket support</strong></a> -
-    Developing WebSocket applications for Apache Tomcat.</li>
+    Developing WebSocket applications for 아파치 톰캣.</li>
 
 </ol>
 
@@ -138,19 +138,19 @@
 <section name="Reference">
 
 <p>The following documents are aimed at <em>System Administrators</em> who
-are responsible for installing, configuring, and operating an Apache Tomcat server.
+are responsible for installing, configuring, and operating an 아파치 톰캣 server.
 </p>
 <ul>
 <li><a href="RELEASE-NOTES.txt"><strong>Release notes</strong></a>
-    - Known issues in this Apache Tomcat release.
+    - Known issues in this 아파치 톰캣 release.
     </li>
-<li><a href="config/index.html"><strong>Apache Tomcat Server Configuration Reference</strong></a>
+<li><a href="config/index.html"><strong>아파치 톰캣 Server Configuration Reference</strong></a>
     - Reference manual that documents all available elements and attributes
-      that may be placed into the Apache Tomcat <code>conf/server.xml</code> file.
+      that may be placed into the 아파치 톰캣 <code>conf/server.xml</code> file.
     </li>
 <li><a href="http://tomcat.apache.org/connectors-doc/index.html"><strong>JK Documentation</strong></a>
     - Complete documentation and HOWTOs on the JK native webserver connector,
-      used to interface Apache Tomcat with servers like Apache HTTPd, IIS
+      used to interface 아파치 톰캣 with servers like Apache HTTPd, IIS
       and others.</li>
 <li>Servlet 3.0
     <a href="http://jcp.org/aboutJava/communityprocess/final/jsr315/index.html">
@@ -170,32 +170,32 @@ are responsible for installing, configuring, and operating an Apache Tomcat serv
 </section>
 
 
-<section name="Apache Tomcat Developers">
+<section name="아파치 톰캣 Developers">
 
 <p>The following documents are for Java developers who wish to contribute to
-the development of the <em>Apache Tomcat</em> project.</p>
+the development of the <em>아파치 톰캣</em> project.</p>
 <ul>
 <li><a href="building.html"><strong>Building from Source</strong></a> -
-    Details the steps necessary to download Apache Tomcat source code (and the
+    Details the steps necessary to download 아파치 톰캣 source code (and the
     other packages that it depends on), and build a binary distribution from
     those sources.
     </li>
 <li><a href="changelog.html"><strong>Changelog</strong></a> - Details the
-    changes made to Apache Tomcat.
+    changes made to 아파치 톰캣.
     </li>
 <li><a href="http://wiki.apache.org/tomcat/TomcatVersions"><strong>Status</strong></a> -
-    Apache Tomcat development status.
+    아파치 톰캣 development status.
     </li>
 <li><a href="developers.html"><strong>Developers</strong></a> - List of active
-    Apache Tomcat contributors.
+    아파치 톰캣 contributors.
     </li>
 <li><a href="funcspecs/index.html"><strong>Functional Specifications</strong></a>
     - Requirements specifications for features of the <em>Catalina</em> servlet
-    container portion of Apache Tomcat.</li>
+    container portion of 아파치 톰캣.</li>
 <li><a href="api/index.html"><strong>Javadocs</strong></a>
-    - Javadoc API documentation for Apache Tomcat's internals.</li>
-<li><a href="architecture/index.html"><strong>Apache Tomcat Architecture</strong></a>
-    - Documentation of the Apache Tomcat Server Architecture.</li>
+    - Javadoc API documentation for 아파치 톰캣's internals.</li>
+<li><a href="architecture/index.html"><strong>아파치 톰캣 Architecture</strong></a>
+    - Documentation of the 아파치 톰캣 Server Architecture.</li>
 </ul>
 
 </section>
