@@ -54,16 +54,14 @@
 <ol>
 <li><a href="introduction.html"><strong>소개</strong></a> - 간략하고, 전반적인 아파치 톰캣 개요.</li>
 <li><a href="setup.html"><strong>설치</strong></a> - 다양한 플랫폼에 아파치 톰캣을 설치하고 실행하는 방법.</li>
-<li><a href="appdev/index.html"><strong>First web application</strong></a>
-    - An introduction to the concepts of a <em>web application</em> as defined
-    in the Servlet Specification.  Covers basic organization of your web application
-    source tree, the structure of a web application archive, and an
-    introduction to the web application deployment descriptor
-    (<code>/WEB-INF/web.xml</code>).</li>
-<li><a href="deployer-howto.html"><strong>Deployer</strong></a> -
-    Operating the Apache Tomcat Deployer to deploy, precompile, and validate web
-    applications.</li>
-<li><a href="manager-howto.html"><strong>Manager</strong></a> -
+<li><a href="appdev/index.html"><strong>첫번째 웹 애플리케이션</strong></a>
+    - 서블릿 스펙에 정의된 <em>웹 애플리케이션</em>의 컨셉에 대한 소개.
+    웹 애플리케이션 소스 트리의 기본 구조와 웹 애플리케이션 아카이브의 구조, 
+    웹 애플리케이션 배포 설명자 소개를 커버합니다.(<code>/WEB-INF/web.xml</code>).</li>
+<li><a href="deployer-howto.html"><strong>디플로이어(Deployer)</strong></a> -
+    웹 애플리케이션의 배포, 프리컴파일, 검증하기 위한 아파치 톰캣 디플로이어 동작법.</li>
+<li><a href="manager-howto.html"><strong>매니저</strong></a> -
+    아파치 톰캣이 실행되는 동안 웹앱 배포, 삭제, 재배포하기 위한 <strong>매니저</strong>의 동작법.
     Operating the <strong>Manager</strong> web app to deploy, undeploy, and
     redeploy applications while Apache Tomcat is running.</li>
 <li><a href="realm-howto.html"><strong>Realms and Access Control</strong></a>
