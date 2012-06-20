@@ -23,41 +23,37 @@
   &project;
 
   <properties>
-    <author email="craigmcc@apache.org">Craig R. McClanahan</author>
-    <author email="remm@apache.org">Remy Maucherat</author>
-    <author email="yoavs@apache.org">Yoav Shapira</author>
-    <title>Documentation Index</title>
+    <author email="craigmcc@apache.org">크레이그 R. 맥클라나한</author>
+    <author email="remm@apache.org">레미 모체랏</author>
+    <author email="yoavs@apache.org">요압 샤피라</author>
+    <title>문서 인덱스</title>
   </properties>
 
 <body>
 
 <section name="Introduction">
 
-<p>This is the top-level entry point of the documentation bundle for the
-<strong>Apache Tomcat</strong> Servlet/JSP container.  Apache Tomcat version 7.0
-implements the Servlet 3.0 and JavaServer Pages 2.2
-<a href="http://wiki.apache.org/tomcat/Specifications">specifications</a> from the
-<a href="http://www.jcp.org">Java Community Process</a>, and includes many
-additional features that make it a useful platform for developing and deploying
-web applications and web services.</p>
+<p>이 페이지는 <strong>아파치 톰캣 </strong> 서블릿/JSP 컨테이너에 대한 문서 번들의 최상위 엔트리 지점입니다. 
+아파치 톰캣 버전 7.0은 <a href="http://www.jcp.org"> 자바 커뮤니티 프로세스</a>에서 나온 
+서블릿 3.0 및 JSP(JavaServer Pages) 2.2
+<a href="http://wiki.apache.org/tomcat/Specifications"> 사양</a>을 구현했고,
+웹 응용 프로그램 및 웹 서비스의 개발 및 배포를 위한 유용한 플랫폼으로 만드는 많은 추가 기능을 
+제공합니다. </p>
 
-<p>Select one of the links from the navigation menu (to the left) to drill
-down to the more detailed documentation that is available.  Each available
-manual is described in more detail below.</p>
+<p>탐색 메뉴에서 링크 중 하나를 (왼쪽)를 선택하면 더 자세한 설명서가 나옵니다.
+사용 가능한 각 사용 설명서는 아래에 자세히 설명되어 있습니다. </p>
 
 </section>
 
 
 <section name="Apache Tomcat User Guide">
 
-<p>The following documents will assist you in downloading, installing
-Apache Tomcat 7, and using many of the Apache Tomcat features.</p>
+<p>다음 문서는 아파치 톰캣 7을 다운로드하고 설치하고, 많은 아파치 톰캣 기능을 사용하는 데 
+도움이 될 것입니다</p>
 
 <ol>
-<li><a href="introduction.html"><strong>Introduction</strong></a> - A
-    brief, high level, overview of Apache Tomcat.</li>
-<li><a href="setup.html"><strong>Setup</strong></a> - How to install and run
-    Apache Tomcat on a variety of platforms.</li>
+<li><a href="introduction.html"><strong>소개</strong></a> - 간략하고, 전반적인 아파치 톰캣 개요.</li>
+<li><a href="setup.html"><strong>설치</strong></a> - 다양한 플랫폼에 아파치 톰캣을 설치하고 실행하는 방법.</li>
 <li><a href="appdev/index.html"><strong>First web application</strong></a>
     - An introduction to the concepts of a <em>web application</em> as defined
     in the Servlet Specification.  Covers basic organization of your web application

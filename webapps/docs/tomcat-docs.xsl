@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   Licensed to the Apache Software Foundation (ASF) under one or more
   contributor license agreements.  See the NOTICE file distributed with
@@ -25,7 +25,7 @@
 
   <!-- Output method -->
   <xsl:output method="html"
-            encoding="iso-8859-1"
+            encoding="utf-8"
               indent="no"/>
 
 
