@@ -33,27 +33,23 @@
 </section>
 
 <section name="Overview">
-<p>톰캣은 <a href="http://tools.ietf.org/html/rfc6455">RFC 6455</a>에 정의된 WebSocket을 제공합니다. This feature is
-   not yet finalised and you are encouraged to provide feedback in the form
-   of bug reports (via
-   <a href="https://issues.apache.org/bugzilla">Bugzilla</a>), suggested API
-   changes (via the <a href="mailto:dev@tomcat.apache.org">dev list</a>) or
-   other comments (again via the <a href="mailto:dev@tomcat.apache.org">dev
-   list</a>).</p>
+<p>톰캣은 <a href="http://tools.ietf.org/html/rfc6455">RFC 6455</a>에 정의된 WebSocket을 
+   제공합니다. 이 기능은 아직 완료되지 않았으며 버그 리포트 양식에 따른 
+   (<a href="https://issues.apache.org/bugzilla">Bugzilla</a>를 통한) 여러분의 피드백과 
+   API 변경(<a href="mailto:dev@tomcat.apache.org">dev list</a>를 통한) 제안,
+   또는 의견(<a href="mailto:dev@tomcat.apache.org">dev list</a>를 통한)을 받고 있습니다.</p>
 </section>
 
 <section name="Application development">
-<p>The API used for application development has not yet been finalised. Rather
-   than document something here that will quickly be out of date, please see the
-   Javadoc for the
-   <a href="api/index.html?org/apache/catalina/websocket/package-summary.html">
-   <code>org.apache.catalina.websocket</code></a> package. The Javadoc
-   pages are not included with Tomcat binary distributions. To view them
-   locally you would have to download and install "Full documentation"
-   distribution, or build it from sources. You can
-   also read this on the Apache Tomcat web site. Start with the
+<p>어플리케이션 개발을 위한 API는 아직 완료되지 않았습니다. 일정보다 빠르게 보려면 여기의 
+   문서보다  <a href="api/index.html?org/apache/catalina/websocket/package-summary.html">
+   <code>org.apache.catalina.websocket</code></a> 패키지의 Javadoc를 보길 권장합니다.
+   Javadoc 패키지들은 Tomcat 바이너리 배포판을 포함하지 않습니다.
+   관련하여 보길 원한다면 여러분은 'Full documentation' 배포판을 
+   다운로드 후 인스톨하거나 소스로부터 빌드해야 합니다.
+   여러분은 Apache Tomcat 사이트를 통해서 읽을 수도 있습니다.
    <a href="api/index.html?org/apache/catalina/websocket/WebSocketServlet.html">
-   <code>WebSocketServlet</code></a> class.</p>
+   <code>WebSocketServlet</code></a> 클래스에서 시작하세요.</p>
 
 <p>There are also several example applications that demonstrate how the
    WebSocket API can be used. You'll need to look at both the client side <a
