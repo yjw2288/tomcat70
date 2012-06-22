@@ -33,8 +33,7 @@
 </section>
 
 <section name="Overview">
-<p>Tomcat provides support for WebSocket as defined by
-   <a href="http://tools.ietf.org/html/rfc6455">RFC 6455</a>. This feature is
+<p>톰캣은 <a href="http://tools.ietf.org/html/rfc6455">RFC 6455</a>에 정의된 WebSocket을 제공합니다. This feature is
    not yet finalised and you are encouraged to provide feedback in the form
    of bug reports (via
    <a href="https://issues.apache.org/bugzilla">Bugzilla</a>), suggested API
